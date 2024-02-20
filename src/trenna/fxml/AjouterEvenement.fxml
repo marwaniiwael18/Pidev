@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#rechercher" prefHeight="714.0" prefWidth="1202.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AjouterEvenementController">
+    <stylesheets>
+        <URL value="@ajouterevenement.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="ajouterbtn" layoutX="155.0" layoutY="569.0" mnemonicParsing="false" onAction="#AjouterEvenement" prefHeight="26.0" prefWidth="152.0" text="Confirmer l'ajout" />
+      <TextField fx:id="nom" layoutX="170.0" layoutY="173.0" prefHeight="26.0" prefWidth="159.0" />
+      <TextField fx:id="prix" layoutX="159.0" layoutY="322.0" prefHeight="26.0" prefWidth="159.0" />
+      <TextField fx:id="recompense" layoutX="159.0" layoutY="396.0" prefHeight="26.0" prefWidth="159.0" />
+      <Label layoutX="42.0" layoutY="177.0" prefHeight="18.0" prefWidth="34.0" text="Nom" />
+      <Label layoutX="10.0" layoutY="247.0" text="Date d'evenement" />
+      <Label layoutX="49.0" layoutY="327.0" text="Prix" />
+      <Label layoutX="25.0" layoutY="400.0" text="Recompense" />
+      <Button fx:id="modifierbtn" layoutX="416.0" layoutY="569.0" mnemonicParsing="false" onAction="#ModifierEvenement" prefHeight="26.0" prefWidth="130.0" text="Modifier" />
+      <Accordion />
+      <Button fx:id="supprimerbtn" layoutX="672.0" layoutY="569.0" mnemonicParsing="false" onAction="#SupprimerEvenement" prefHeight="26.0" prefWidth="142.0" text="Supprimer" />
+      <ListView fx:id="liste" layoutX="402.0" layoutY="169.0" onMousePressed="#index3" prefHeight="270.0" prefWidth="514.0" />
+      <TextField fx:id="date" layoutX="157.0" layoutY="243.0" />
+      <TextField fx:id="Search" layoutX="695.0" layoutY="82.0" onAction="#Search" />
+      <Button layoutX="547.0" layoutY="82.0" mnemonicParsing="false" onAction="#tri" text="Button" />
+      <ButtonBar prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" text="Button" />
+        </buttons>
+      </ButtonBar>
+      <TextField fx:id="id" layoutX="175.0" layoutY="131.0" />
+      <Button fx:id="comment" layoutX="318.0" layoutY="57.0" mnemonicParsing="false" onAction="#commentaire" text="commentaire" />
+   </children>
+</AnchorPane>

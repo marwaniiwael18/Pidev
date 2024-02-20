@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMousePressed="#click" prefHeight="390.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EventCardController">
+   <children>
+      <VBox layoutX="40.0" layoutY="43.0" prefHeight="341.0" prefWidth="282.0" style="-fx-background-color: #FADBD8;" styleClass="add-btn" stylesheets="@../css/style.css">
+         <children>
+            <Pane prefHeight="309.0" prefWidth="244.0">
+               <children>
+                  <Label layoutX="33.0" layoutY="71.0" prefHeight="59.0" prefWidth="61.0" text="Nom " textFill="#d9532a">
+                     <font>
+                        <Font name="Comic Sans MS" size="21.0" />
+                     </font>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="209.0" text="Prix de l'évènement" textFill="#d9532a">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="143.0" text="Date " textFill="#d9532a">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="33.0" layoutY="269.0" text="Récompense" textFill="#d9532a">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="nom" layoutX="100.0" layoutY="67.0" prefHeight="42.0" prefWidth="152.0" stylesheets="@../css/style.css" />
+                  <Label fx:id="dateevenement" layoutX="104.0" layoutY="137.0" prefHeight="29.0" prefWidth="152.0" />
+                  <Label fx:id="prrix" layoutX="221.0" layoutY="203.0" prefHeight="29.0" prefWidth="46.0" />
+                  <Label fx:id="recompense" layoutX="176.0" layoutY="263.0" prefHeight="29.0" prefWidth="46.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

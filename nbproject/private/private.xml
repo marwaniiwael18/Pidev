@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/entities/EnvoyerEmail.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/ListEvenement.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/modifierevenement.css</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/AfficherEvenementController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/services/UserService.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/Commentaire.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/ListEvenementController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/ModifierEvenement.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/ajouterevenement.css</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/services/CommentaireService.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/entities/Commentaire.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/entities/evenement.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/utils/JavaMailUtils.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/AfficherEvenement.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/EventCardController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/entities/Pdf.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/services/IService1.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/commentaire.css</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/ModifierEvenementController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/AjouterEvenementController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/services/evenementservice.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/afficherevenement.css</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/EventCard.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/AjouterEvenement.fxml</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/controller/CommentaireController.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/fxml/MyListener.java</file>
+            <file>file:/C:/Users/medom/Desktop/pidev/PiDev/src/trenna/utils/DBConnexion.java</file>
+        </group>
+    </open-files>
+</project-private>

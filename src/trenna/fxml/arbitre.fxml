@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ArbitreController">
+   <children>
+      <ImageView fitHeight="529.0" fitWidth="933.0" layoutX="-31.0">
+         <image>
+            <Image url="@../img/Sports-e1544731833709.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="idMatchh" layoutX="199.0" layoutY="40.0" />
+      <TextField fx:id="typeMatchh" layoutX="358.0" layoutY="119.0" />
+      <Label layoutX="60.0" layoutY="38.0" text="idMatch" textFill="#754d15">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="117.0" text="type Match" textFill="#754d15">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="230.0" text="id arb" textFill="#754d15">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idArb" layoutX="401.0" layoutY="235.0" />
+      <Button fx:id="su" layoutX="78.0" layoutY="374.0" mnemonicParsing="false" onAction="#supp" text="Supprimer">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/sup.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="aj" layoutX="388.0" layoutY="374.0" mnemonicParsing="false" onAction="#ajt" prefHeight="49.0" prefWidth="126.0" text="Ajouter">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ajt.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="mod" layoutX="764.0" layoutY="374.0" mnemonicParsing="false" onAction="#modifier" text="Modifier">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/mod.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="aff" layoutX="388.0" layoutY="444.0" mnemonicParsing="false" onAction="#affich" prefHeight="41.0" prefWidth="126.0" text="Afficher">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/3596221.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="-5.0" layoutY="-1.0" mnemonicParsing="false" onAction="#rtr" text="&lt;&lt;" textFill="#bf1d1d">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/190238.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

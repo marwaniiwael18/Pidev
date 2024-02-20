@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="583.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trenna.controller.GestionUserFXMLController">
+   <children>
+      <ListView fx:id="list" layoutX="262.0" layoutY="76.0" prefHeight="385.0" prefWidth="586.0" AnchorPane.bottomAnchor="122.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="76.0" />
+      <TextField fx:id="searchUser" layoutX="379.0" layoutY="27.0" prefHeight="25.0" prefWidth="198.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="292.0" AnchorPane.topAnchor="27.0" />
+      <Label layoutX="277.0" layoutY="24.0" prefHeight="32.0" prefWidth="102.0" text="Cherche :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="nom" layoutX="48.0" layoutY="94.0" />
+      <TextField fx:id="prenom" layoutX="48.0" layoutY="184.0" />
+      <ComboBox fx:id="age" layoutX="48.0" layoutY="266.0" prefWidth="150.0" promptText="voir l'age" />
+      
+      <Label layoutX="48.0" layoutY="60.0" prefHeight="32.0" prefWidth="102.0" text="nom :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="47.0" layoutY="146.0" prefHeight="32.0" prefWidth="102.0" text="prénom :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="48.0" layoutY="234.0" prefHeight="32.0" prefWidth="102.0" text="Age :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="48.0" layoutY="312.0" prefHeight="32.0" prefWidth="178.0" text="mot de passe :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="48.0" layoutY="394.0" prefHeight="32.0" prefWidth="102.0" text="Role :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <PasswordField fx:id="mdp" layoutX="48.0" layoutY="354.0" />
+      <Button layoutX="55.0" layoutY="498.0" mnemonicParsing="false" onAction="#modifier" prefHeight="44.0" prefWidth="85.0" text="Modifier" />
+      <Button layoutX="606.0" layoutY="492.0" mnemonicParsing="false" onAction="#Supprimer" prefHeight="44.0" prefWidth="102.0" text="Supprimer" AnchorPane.bottomAnchor="47.0" AnchorPane.rightAnchor="161.0" />
+      <Label layoutX="239.0" layoutY="498.0" prefHeight="32.0" prefWidth="102.0" text="Email :" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="528.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#f50c0c" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="email" layoutX="328.0" layoutY="502.0" prefHeight="25.0" prefWidth="239.0" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="328.0" AnchorPane.rightAnchor="302.0" />
+      <RadioButton fx:id="admin" layoutX="47.0" layoutY="437.0" mnemonicParsing="false" text="Admin" />
+      <RadioButton fx:id="client" layoutX="140.0" layoutY="437.0" mnemonicParsing="false" text="Client" />
+      <Button layoutX="727.0" layoutY="492.0" mnemonicParsing="false" onAction="#logout" prefHeight="44.0" prefWidth="127.0" text="Se déconnecter" AnchorPane.bottomAnchor="47.0" AnchorPane.rightAnchor="15.0" />
+      <Label fx:id="labelUser" layoutX="662.0" layoutY="17.0" prefHeight="32.0" prefWidth="192.0" />
+   </children>
+</AnchorPane>
